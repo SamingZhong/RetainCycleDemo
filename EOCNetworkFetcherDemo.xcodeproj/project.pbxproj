@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33CE33BD1C9C64EA00E27715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33BC1C9C64EA00E27715 /* main.m */; };
+		33CE33C01C9C64EA00E27715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33BF1C9C64EA00E27715 /* AppDelegate.m */; };
+		33CE33C31C9C64EA00E27715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33C21C9C64EA00E27715 /* ViewController.m */; };
+		33CE33C61C9C64EA00E27715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C41C9C64EA00E27715 /* Main.storyboard */; };
+		33CE33C81C9C64EA00E27715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C71C9C64EA00E27715 /* Assets.xcassets */; };
+		33CE33CB1C9C64EA00E27715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */; };
+		33CE33D61C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33D51C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m */; };
+		33CE33E11C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33E01C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33CE33D21C9C64EA00E27715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CE33B01C9C64EA00E27715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CE33B71C9C64EA00E27715;
+			remoteInfo = EOCNetworkFetcherDemo;
+		};
+		33CE33DD1C9C64EA00E27715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33CE33B01C9C64EA00E27715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33CE33B71C9C64EA00E27715;
+			remoteInfo = EOCNetworkFetcherDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33CE33B81C9C64EA00E27715 /* EOCNetworkFetcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOCNetworkFetcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE33BC1C9C64EA00E27715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33CE33BE1C9C64EA00E27715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33CE33BF1C9C64EA00E27715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33CE33C11C9C64EA00E27715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33CE33C21C9C64EA00E27715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33CE33C51C9C64EA00E27715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33CE33C71C9C64EA00E27715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CE33CA1C9C64EA00E27715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33CE33CC1C9C64EA00E27715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE33D11C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EOCNetworkFetcherDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE33D51C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcherDemoTests.m; sourceTree = "<group>"; };
+		33CE33D71C9C64EA00E27715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE33DC1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EOCNetworkFetcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CE33E01C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcherDemoUITests.m; sourceTree = "<group>"; };
+		33CE33E21C9C64EA00E27715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33CE33B51C9C64EA00E27715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33CE1C9C64EA00E27715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33D91C9C64EA00E27715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33CE33AF1C9C64EA00E27715 = {
+			isa = PBXGroup;
+			children = (
+				33CE33BA1C9C64EA00E27715 /* EOCNetworkFetcherDemo */,
+				33CE33D41C9C64EA00E27715 /* EOCNetworkFetcherDemoTests */,
+				33CE33DF1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests */,
+				33CE33B91C9C64EA00E27715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33CE33B91C9C64EA00E27715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33B81C9C64EA00E27715 /* EOCNetworkFetcherDemo.app */,
+				33CE33D11C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.xctest */,
+				33CE33DC1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33CE33BA1C9C64EA00E27715 /* EOCNetworkFetcherDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33BE1C9C64EA00E27715 /* AppDelegate.h */,
+				33CE33BF1C9C64EA00E27715 /* AppDelegate.m */,
+				33CE33C11C9C64EA00E27715 /* ViewController.h */,
+				33CE33C21C9C64EA00E27715 /* ViewController.m */,
+				33CE33C41C9C64EA00E27715 /* Main.storyboard */,
+				33CE33C71C9C64EA00E27715 /* Assets.xcassets */,
+				33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */,
+				33CE33CC1C9C64EA00E27715 /* Info.plist */,
+				33CE33BB1C9C64EA00E27715 /* Supporting Files */,
+			);
+			path = EOCNetworkFetcherDemo;
+			sourceTree = "<group>";
+		};
+		33CE33BB1C9C64EA00E27715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33BC1C9C64EA00E27715 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33CE33D41C9C64EA00E27715 /* EOCNetworkFetcherDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33D51C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m */,
+				33CE33D71C9C64EA00E27715 /* Info.plist */,
+			);
+			path = EOCNetworkFetcherDemoTests;
+			sourceTree = "<group>";
+		};
+		33CE33DF1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33E01C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m */,
+				33CE33E21C9C64EA00E27715 /* Info.plist */,
+			);
+			path = EOCNetworkFetcherDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33CE33B71C9C64EA00E27715 /* EOCNetworkFetcherDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE33E51C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemo" */;
+			buildPhases = (
+				33CE33B41C9C64EA00E27715 /* Sources */,
+				33CE33B51C9C64EA00E27715 /* Frameworks */,
+				33CE33B61C9C64EA00E27715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EOCNetworkFetcherDemo;
+			productName = EOCNetworkFetcherDemo;
+			productReference = 33CE33B81C9C64EA00E27715 /* EOCNetworkFetcherDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33CE33D01C9C64EA00E27715 /* EOCNetworkFetcherDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE33E81C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoTests" */;
+			buildPhases = (
+				33CE33CD1C9C64EA00E27715 /* Sources */,
+				33CE33CE1C9C64EA00E27715 /* Frameworks */,
+				33CE33CF1C9C64EA00E27715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CE33D31C9C64EA00E27715 /* PBXTargetDependency */,
+			);
+			name = EOCNetworkFetcherDemoTests;
+			productName = EOCNetworkFetcherDemoTests;
+			productReference = 33CE33D11C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33CE33DB1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CE33EB1C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoUITests" */;
+			buildPhases = (
+				33CE33D81C9C64EA00E27715 /* Sources */,
+				33CE33D91C9C64EA00E27715 /* Frameworks */,
+				33CE33DA1C9C64EA00E27715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33CE33DE1C9C64EA00E27715 /* PBXTargetDependency */,
+			);
+			name = EOCNetworkFetcherDemoUITests;
+			productName = EOCNetworkFetcherDemoUITests;
+			productReference = 33CE33DC1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33CE33B01C9C64EA00E27715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhong;
+				TargetAttributes = {
+					33CE33B71C9C64EA00E27715 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					33CE33D01C9C64EA00E27715 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33CE33B71C9C64EA00E27715;
+					};
+					33CE33DB1C9C64EA00E27715 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 33CE33B71C9C64EA00E27715;
+					};
+				};
+			};
+			buildConfigurationList = 33CE33B31C9C64EA00E27715 /* Build configuration list for PBXProject "EOCNetworkFetcherDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33CE33AF1C9C64EA00E27715;
+			productRefGroup = 33CE33B91C9C64EA00E27715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33CE33B71C9C64EA00E27715 /* EOCNetworkFetcherDemo */,
+				33CE33D01C9C64EA00E27715 /* EOCNetworkFetcherDemoTests */,
+				33CE33DB1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CE33B61C9C64EA00E27715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE33CB1C9C64EA00E27715 /* LaunchScreen.storyboard in Resources */,
+				33CE33C81C9C64EA00E27715 /* Assets.xcassets in Resources */,
+				33CE33C61C9C64EA00E27715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33CF1C9C64EA00E27715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33DA1C9C64EA00E27715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33CE33B41C9C64EA00E27715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE33C31C9C64EA00E27715 /* ViewController.m in Sources */,
+				33CE33C01C9C64EA00E27715 /* AppDelegate.m in Sources */,
+				33CE33BD1C9C64EA00E27715 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33CD1C9C64EA00E27715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE33D61C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE33D81C9C64EA00E27715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33CE33E11C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33CE33D31C9C64EA00E27715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CE33B71C9C64EA00E27715 /* EOCNetworkFetcherDemo */;
+			targetProxy = 33CE33D21C9C64EA00E27715 /* PBXContainerItemProxy */;
+		};
+		33CE33DE1C9C64EA00E27715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33CE33B71C9C64EA00E27715 /* EOCNetworkFetcherDemo */;
+			targetProxy = 33CE33DD1C9C64EA00E27715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33CE33C41C9C64EA00E27715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CE33C51C9C64EA00E27715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33CE33CA1C9C64EA00E27715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33CE33E31C9C64EA00E27715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33CE33E41C9C64EA00E27715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33CE33E61C9C64EA00E27715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EOCNetworkFetcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33CE33E71C9C64EA00E27715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EOCNetworkFetcherDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33CE33E91C9C64EA00E27715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EOCNetworkFetcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EOCNetworkFetcherDemo.app/EOCNetworkFetcherDemo";
+			};
+			name = Debug;
+		};
+		33CE33EA1C9C64EA00E27715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EOCNetworkFetcherDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EOCNetworkFetcherDemo.app/EOCNetworkFetcherDemo";
+			};
+			name = Release;
+		};
+		33CE33EC1C9C64EA00E27715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EOCNetworkFetcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EOCNetworkFetcherDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		33CE33ED1C9C64EA00E27715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EOCNetworkFetcherDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhong.com.EOCNetworkFetcherDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EOCNetworkFetcherDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33CE33B31C9C64EA00E27715 /* Build configuration list for PBXProject "EOCNetworkFetcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE33E31C9C64EA00E27715 /* Debug */,
+				33CE33E41C9C64EA00E27715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CE33E51C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE33E61C9C64EA00E27715 /* Debug */,
+				33CE33E71C9C64EA00E27715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33CE33E81C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE33E91C9C64EA00E27715 /* Debug */,
+				33CE33EA1C9C64EA00E27715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33CE33EB1C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33CE33EC1C9C64EA00E27715 /* Debug */,
+				33CE33ED1C9C64EA00E27715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33CE33B01C9C64EA00E27715 /* Project object */;
+}
