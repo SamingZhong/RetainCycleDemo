@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3394430B1C9D9C8B00FC8139 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394430A1C9D9C8B00FC8139 /* BViewController.m */; };
 		33CE33BD1C9C64EA00E27715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33BC1C9C64EA00E27715 /* main.m */; };
 		33CE33C01C9C64EA00E27715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33BF1C9C64EA00E27715 /* AppDelegate.m */; };
-		33CE33C31C9C64EA00E27715 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33C21C9C64EA00E27715 /* ViewController.m */; };
+		33CE33C31C9C64EA00E27715 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33C21C9C64EA00E27715 /* AViewController.m */; };
 		33CE33C61C9C64EA00E27715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C41C9C64EA00E27715 /* Main.storyboard */; };
 		33CE33C81C9C64EA00E27715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C71C9C64EA00E27715 /* Assets.xcassets */; };
 		33CE33CB1C9C64EA00E27715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */; };
 		33CE33D61C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33D51C9C64EA00E27715 /* EOCNetworkFetcherDemoTests.m */; };
 		33CE33E11C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33E01C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m */; };
+		33CE33F11C9C654600E27715 /* EOCNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE33F01C9C654600E27715 /* EOCNetworkFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		339443091C9D9C8B00FC8139 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		3394430A1C9D9C8B00FC8139 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		33CE33B81C9C64EA00E27715 /* EOCNetworkFetcherDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOCNetworkFetcherDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CE33BC1C9C64EA00E27715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33CE33BE1C9C64EA00E27715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33CE33BF1C9C64EA00E27715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33CE33C11C9C64EA00E27715 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33CE33C21C9C64EA00E27715 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33CE33C11C9C64EA00E27715 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		33CE33C21C9C64EA00E27715 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		33CE33C51C9C64EA00E27715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33CE33C71C9C64EA00E27715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33CE33CA1C9C64EA00E27715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		33CE33DC1C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EOCNetworkFetcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CE33E01C9C64EA00E27715 /* EOCNetworkFetcherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcherDemoUITests.m; sourceTree = "<group>"; };
 		33CE33E21C9C64EA00E27715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CE33EF1C9C654600E27715 /* EOCNetworkFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCNetworkFetcher.h; sourceTree = "<group>"; };
+		33CE33F01C9C654600E27715 /* EOCNetworkFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCNetworkFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,12 @@
 		33CE33BA1C9C64EA00E27715 /* EOCNetworkFetcherDemo */ = {
 			isa = PBXGroup;
 			children = (
-				33CE33BE1C9C64EA00E27715 /* AppDelegate.h */,
-				33CE33BF1C9C64EA00E27715 /* AppDelegate.m */,
-				33CE33C11C9C64EA00E27715 /* ViewController.h */,
-				33CE33C21C9C64EA00E27715 /* ViewController.m */,
+				33CE33EE1C9C651F00E27715 /* EOCNetworkFetcher */,
+				33CE33C11C9C64EA00E27715 /* AViewController.h */,
+				33CE33C21C9C64EA00E27715 /* AViewController.m */,
 				33CE33C41C9C64EA00E27715 /* Main.storyboard */,
-				33CE33C71C9C64EA00E27715 /* Assets.xcassets */,
-				33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */,
-				33CE33CC1C9C64EA00E27715 /* Info.plist */,
+				339443091C9D9C8B00FC8139 /* BViewController.h */,
+				3394430A1C9D9C8B00FC8139 /* BViewController.m */,
 				33CE33BB1C9C64EA00E27715 /* Supporting Files */,
 			);
 			path = EOCNetworkFetcherDemo;
@@ -117,6 +121,11 @@
 		33CE33BB1C9C64EA00E27715 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				33CE33BE1C9C64EA00E27715 /* AppDelegate.h */,
+				33CE33BF1C9C64EA00E27715 /* AppDelegate.m */,
+				33CE33C71C9C64EA00E27715 /* Assets.xcassets */,
+				33CE33C91C9C64EA00E27715 /* LaunchScreen.storyboard */,
+				33CE33CC1C9C64EA00E27715 /* Info.plist */,
 				33CE33BC1C9C64EA00E27715 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +147,15 @@
 				33CE33E21C9C64EA00E27715 /* Info.plist */,
 			);
 			path = EOCNetworkFetcherDemoUITests;
+			sourceTree = "<group>";
+		};
+		33CE33EE1C9C651F00E27715 /* EOCNetworkFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				33CE33EF1C9C654600E27715 /* EOCNetworkFetcher.h */,
+				33CE33F01C9C654600E27715 /* EOCNetworkFetcher.m */,
+			);
+			name = EOCNetworkFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CE33C31C9C64EA00E27715 /* ViewController.m in Sources */,
+				33CE33F11C9C654600E27715 /* EOCNetworkFetcher.m in Sources */,
+				3394430B1C9D9C8B00FC8139 /* BViewController.m in Sources */,
+				33CE33C31C9C64EA00E27715 /* AViewController.m in Sources */,
 				33CE33C01C9C64EA00E27715 /* AppDelegate.m in Sources */,
 				33CE33BD1C9C64EA00E27715 /* main.m in Sources */,
 			);
@@ -496,6 +516,7 @@
 				33CE33E71C9C64EA00E27715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33CE33E81C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +525,7 @@
 				33CE33EA1C9C64EA00E27715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33CE33EB1C9C64EA00E27715 /* Build configuration list for PBXNativeTarget "EOCNetworkFetcherDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +534,7 @@
 				33CE33ED1C9C64EA00E27715 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

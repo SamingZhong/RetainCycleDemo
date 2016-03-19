@@ -6,17 +6,22 @@
 //  Copyright © 2016年 zhong. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "AViewController.h"
+#import "EOCClass.h"
 
-@interface ViewController ()
-
+@interface AViewController ()
+@property (nonatomic, strong) EOCClass *downLoader;
 @end
 
-@implementation ViewController
+@implementation AViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)downLoadData:(id)sender {
+    self.downLoader = [EOCClass new];
+    [self.downLoader downLoadData];
 }
 
 - (void)didReceiveMemoryWarning {
